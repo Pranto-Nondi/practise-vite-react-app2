@@ -11,6 +11,9 @@ const ArrayEvent = () => {
     //     setData([])
 
     // }
+    const handelChange=(value)=>{
+        console.log(value)
+    }
     return (
         <>
             <div className='text-center '>
@@ -26,7 +29,8 @@ const ArrayEvent = () => {
 
             </div>
             <div className='text-center'>
-                <button onClick={()=>setData([])} className='btn btn-secondary btn-md mt-4 mb-4'> Remove ALL</button>
+                <button onClick={()=>setData([])} className='btn btn-secondary btn-md mt-4 mb-4 mr-3'> Remove ALL</button>
+                <input type="text" onChange={(e)=>handelChange(e.target.value)} />
             </div>
         </>
 
