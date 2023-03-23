@@ -1,9 +1,5 @@
-.country{
-    margin: 20px;
-    background-color: bisque;
-    padding: 20px;
-    color: black;
-}
+
 .country img{
-    width: 150px;
+    width: 350px;
+    height: auto;
 }

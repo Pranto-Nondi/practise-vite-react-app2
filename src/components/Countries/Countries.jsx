@@ -11,13 +11,13 @@ const Countries = () => {
     }, [])
     return (
         <div>
-            <h2>Countries in Other component file</h2>
-            <h3>Total country: {countries.length}</h3>
+            <h2 className='text-center'>Countries in Other component file</h2>
+            <h3 className='text-center'>Total country: {countries.length}</h3>
             {/* {
                 countries.map(country => console.log(country))
             } */}
 
-            <div className='countries-container'>
+            <div className='grid grid-cols-3 gap-4 container mx-auto px-4'>
                 {
                     countries.map(country => <Country
                         key={country.cca3} country={country} ></Country>)
