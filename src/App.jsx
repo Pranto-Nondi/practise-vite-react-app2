@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import ArrayEvent from './components/Events/ArrayEvent'
 import ObjectEvent from './components/Events/ObjectEvent'
 import UseEffect from './components/Events/UseEffect'
+import Gun from './components/Others/Gun'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ArrayEvent />
       <ObjectEvent />
       <UseEffect/>
+      <Gun/>
       {/* <Countries></Countries> */}
       {/* <Person></Person> */}
 

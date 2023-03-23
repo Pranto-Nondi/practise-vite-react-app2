@@ -12,10 +12,10 @@ const UseEffect = () => {
         loadData()
     },[])
     return (
-        <div className='grid grid-cols-3 gap-4 container mx-auto px-4'>
+        <div className=' grid grid-cols-3 gap-3 container mx-auto '>
             {
                 value.map(singleValue=>{
-                    return <img key={singleValue.id} src={singleValue.avatar_url} alt="" />
+                    return <img style={{width:'250px', height:'200px'}} key={singleValue.id} src={singleValue.avatar_url} alt="" />
                 })
             }
         </div>
