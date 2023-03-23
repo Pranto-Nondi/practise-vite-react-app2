@@ -3,13 +3,15 @@ import Countries from './components/Countries/Countries'
 import Person from './components/Person/Person'
 import Header from './components/Header/Header'
 import ArrayEvent from './components/Events/ArrayEvent'
+import ObjectEvent from './components/Events/ObjectEvent'
 
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <ArrayEvent/>
+      <ArrayEvent />
+      <ObjectEvent />
       {/* <Countries></Countries> */}
       {/* <Person></Person> */}
 

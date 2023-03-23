@@ -21,6 +21,9 @@ module.exports = {
       },
       "dark",
       "cupcake",
+      "garden",
+      "light",
+      "night"
     ],
   },
   plugins: [require("daisyui")],
