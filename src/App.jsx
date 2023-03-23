@@ -2,13 +2,16 @@
 import Countries from './components/Countries/Countries'
 import Person from './components/Person/Person'
 import Header from './components/Header/Header'
+import ArrayEvent from './components/Events/ArrayEvent'
+
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Countries></Countries>
-      <Person></Person>
+      <ArrayEvent/>
+      {/* <Countries></Countries> */}
+      {/* <Person></Person> */}
 
 
     </div>
