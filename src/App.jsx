@@ -4,6 +4,7 @@ import Person from './components/Person/Person'
 import Header from './components/Header/Header'
 import ArrayEvent from './components/Events/ArrayEvent'
 import ObjectEvent from './components/Events/ObjectEvent'
+import UseEffect from './components/Events/UseEffect'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>
       <ArrayEvent />
       <ObjectEvent />
+      <UseEffect/>
       {/* <Countries></Countries> */}
       {/* <Person></Person> */}
 
