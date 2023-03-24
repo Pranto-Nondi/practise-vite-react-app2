@@ -8,11 +8,13 @@ import UseEffect from './components/Events/UseEffect'
 import Gun from './components/Others/Gun'
 import Watch from './components/Watch/Watch'
 import Device from './components/Device/Device'
+import Knob from './components/Knob/Knob'
 
 
 function App() {
   return (
     <div className="App">
+      <Knob value='200'/>
       <Watch/>
       <Device name='andriod' price='7k' />
       <Device name='iphone' price='17k' />
