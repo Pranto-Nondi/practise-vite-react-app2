@@ -6,16 +6,18 @@ import ArrayEvent from './components/Events/ArrayEvent'
 import ObjectEvent from './components/Events/ObjectEvent'
 import UseEffect from './components/Events/UseEffect'
 import Gun from './components/Others/Gun'
+import Watch from './components/Watch/Watch'
 
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Watch/>
+      {/* <Header></Header>
       <ArrayEvent />
       <ObjectEvent />
       <UseEffect/>
-      <Gun/>
+      <Gun/> */}
       {/* <Countries></Countries> */}
       {/* <Person></Person> */}
 
