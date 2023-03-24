@@ -8,7 +8,7 @@ const Watch = () => {
         // console.log(value)
     }
     useEffect(() => {
-        console.log(value)
+        // console.log(value)
     }, [value])
     return (
         <div style={{ border: '2px solid red', margin: '10px', width: '500px' }} className='text-center mt-3 '>
