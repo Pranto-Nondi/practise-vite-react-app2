@@ -7,12 +7,15 @@ import ObjectEvent from './components/Events/ObjectEvent'
 import UseEffect from './components/Events/UseEffect'
 import Gun from './components/Others/Gun'
 import Watch from './components/Watch/Watch'
+import Device from './components/Device/Device'
 
 
 function App() {
   return (
     <div className="App">
       <Watch/>
+      <Device name='andriod' price='7k' />
+      <Device name='iphone' price='17k' />
       {/* <Header></Header>
       <ArrayEvent />
       <ObjectEvent />
