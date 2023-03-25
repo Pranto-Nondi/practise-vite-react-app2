@@ -1,13 +1,14 @@
 
+
 const addToDb = id => {
     let shoppingCart = {};
 
     const storedData = (localStorage.getItem('shopping-cart'));
     if (storedData) {
-        shoppingCart = JSON.parse(storedData)
+        shoppingCart = JSON.parse(storedData);
 
     }
-    const quantity = shoppingCart[id]
+    const quantity = shoppingCart[id];
     if (quantity) {
 
         shoppingCart[id] = quantity + 1;
@@ -24,7 +25,6 @@ const removeCart = id => {
     const storedData = (localStorage.getItem('shopping-cart'));
     if (storedData) {
         const shoppingCart = JSON.parse(storedData)
-        console.log(shoppingCart)
         if (id in shoppingCart) {
             console.log(id)
             delete shoppingCart[id]
