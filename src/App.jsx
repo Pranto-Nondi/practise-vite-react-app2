@@ -9,15 +9,18 @@ import Gun from './components/Others/Gun'
 import Watch from './components/Watch/Watch'
 import Device from './components/Device/Device'
 import Knob from './components/Knob/Knob'
+import Cosmetics from './components/Cosmetics/Cosmetics'
 
 
 function App() {
   return (
     <div className="App">
-      <Knob value='200'/>
+      <Cosmetics />
+      {/* <Knob value='200'/>
       <Watch/>
       <Device name='andriod' price='7k' />
-      <Device name='iphone' price='17k' />
+      <Device name='iphone' price='17k' /> */}
+
       {/* <Header></Header>
       <ArrayEvent />
       <ObjectEvent />
